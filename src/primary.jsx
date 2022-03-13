@@ -1,14 +1,19 @@
 import { useState } from "react";
-import { BsFillTrashFill, BsCheckSquareFill } from "react-icons/bs";
+import { BsFillTrashFill, BsCheckSquareFill, BsXLg } from "react-icons/bs";
+import Modal from "react-modal"
 
+
+Modal.setAppElement("#root")
 
 export default function primary() {
+
   const [taskName, setTaskName] = useState("");
   const [taskList, setTaskList] = useState([]);
+  const [modalIsOpen, setModalIsOpen] = useState(false);
 
   function addTasks() {
     if (taskName.length === 0 || taskName.length > 60) {
-      return alert("Please enter a task name between 1 and 60 characters");
+      setModalIsOpen(true)
     } else {
       return setTaskList([...taskList, taskName]), setTaskName("");
     }
@@ -40,6 +45,35 @@ export default function primary() {
   }
 
   return (
+    <>
+
+    <Modal isOpen={modalIsOpen} 
+    onRequestClose={() => setModalIsOpen(false)}
+    style={{
+      overlay: {
+        backgroundColor: "rgba(0,0,0,0.5)"      
+      },
+      content: {
+        backgroundColor: "white",
+        border: "none",
+        borderRadius: "10px",
+        padding: "20px",
+        width: "460px",
+        height: "170px",
+        margin: "auto",
+        marginTop: "100px",
+        zIndex: "9999",
+        position: 'absolute',
+      }
+    }}
+
+    >
+      <h2>Error</h2>
+      <p>Please enter a task name between 1 and 60 characters</p>
+      <button className="btn btn-danger" onClick={() => setModalIsOpen(false)}><BsXLg/></button>     
+      
+    </Modal>
+
     <div className="container">
       <div className="row justify-content-center">
         <div className="col-md-8">
@@ -71,5 +105,6 @@ export default function primary() {
         </div>
       </div>
     </div>
+    </>
   );
 }
