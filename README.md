@@ -27,13 +27,13 @@ I used two cool libraries like React Icons and React Modal.
 - [x] Como usar o hook useState.
 - [x] Usar e entender as props.
 - [x] Aprendi reorganizar o meu App e componentização. 
-- [ ] Aprendi que a dirigit disco voador. 👽
+- [ ] Aprendi a dirigir disco voador. 👽
 
 ###What I learned doing this project:
 - [x] How to use the hook useState.
 - [x] Use and understand the props.
 - [x] I learned to reorganize my App and componentization..
-- [ ] I learned that the flying saucer drive. 👽
+- [ ] I learned to drive a flying saucer. 👽
 
 ![The app ](https://github.com/carlosnani/ReactToDoList/blob/master/images/modal_lista.jpg?raw=true)
 
