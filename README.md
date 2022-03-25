@@ -21,7 +21,7 @@ I used two cool libraries like React Icons and React Modal.
 ### How to use?
 - 1 Download or clone the repository.
 - 2 Run the commad yarn install.
-- 3 In the project directory, you can run ‘yarn start`.
+- 3 In the project directory, you can run "yarn start".
 
 ### O que eu aprendi fazendo esse projeto:
 - [x] Como usar o hook useState.
