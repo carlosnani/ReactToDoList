@@ -29,7 +29,7 @@ I used two cool libraries like React Icons and React Modal.
 - [x] Aprendi reorganizar o meu App e componentização. 
 - [ ] Aprendi a dirigir disco voador. 👽
 
-###What I learned doing this project:
+### What I learned doing this project:
 - [x] How to use the hook useState.
 - [x] Use and understand the props.
 - [x] I learned to reorganize my App and componentization..
