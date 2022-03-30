@@ -2,9 +2,11 @@
 
 Esse é um aplicativo simples de lista de tarefas feito com React.
 Utilizei duas bibliotecas legais como React Icons e React Modal.
+Você pode acessar o projeto [aqui](https://ca-react-todo-list.netlify.app/)
 
 This is a simple todo list app built with React. 
 I used two cool libraries like React Icons and React Modal.
+You can acess the project [here](https://ca-react-todo-list.netlify.app/)
  
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -27,7 +29,7 @@ I used two cool libraries like React Icons and React Modal.
 - [x] Como usar o hook useState.
 - [x] Usar e entender as props.
 - [x] Aprendi reorganizar o meu App e componentização. 
-- [ ] Aprendi a dirigir disco voador. 👽
+- [ ] Aprendi a dirigir um disco voador. 👽
 
 ### What I learned doing this project:
 - [x] How to use the hook useState.
